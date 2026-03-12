@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+  .line {
+    width: 30px;
+    height: 3px;
+    background: #999;
+    margin: 10px auto 30px auto;
+    border-radius: 5px;
+  }
+
+  .line-left {
+    margin: 10px 0 30px 0;
+  }
+</style>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <!-- Thong tin lien he -->
+    <div class="bg-white text-dark p-3">
+      <div class="container">
+        <div class="d-flex flex-wrap gap-2">
+          <a href="tel:+1234567890" class="text-decoration-none text-dark">Phone: +1234567890</a>
+          <a href="mailto:example@example.com" class="text-decoration-none text-dark">Email: example@example.com</a>
+          <div class="ms-sm-auto d-flex gap-2 flex-wrap">
+            <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+            <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+            <a href="#"><i class="bi bi-google text-dark"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold fs-1" href="#">
+          dott<span class="text-danger">.</span>
+        </a>
+        <!-- Menu -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto p-0 m-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Về chúng tôi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- MAIN -->
+  <main class="container">
+    <h1 class="section-title text-center mt-3 text-dark">
+      Đội ngũ của chúng tôi
+    </h1>
+    <div class="line"></div>
+    <p class="text-center">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVp6w8rjASq3hpBXGQmThIx-c47ZD9eLwzEQ&s"
+              class="card-img-top" />
+            <div class="card-body bg-light">
+              <h5 class="text-center">John Doe</h5>
+              <p class="text-center">Giám đốc sáng tạo</p>
+              <div class="line"></div>
+              <div class="d-flex gap-2 justify-content-center align-content-start">
+                <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+                <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+                <a href="#"><i class="bi bi-google text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXJeBLSy25pcxXbHM4vJRgVAsnRYy1SyEiw&s"
+              class="card-img-top">
+            <div class="card-body bg-light">
+              <h5 class="text-center">Bryan Dupont</h5>
+              <p class="text-center">Giám đốc điều hành</p>
+              <div class="line"></div>
+              <div class="d-flex gap-2 justify-content-center align-content-start">
+                <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+                <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+                <a href="#"><i class="bi bi-google text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVR872xrP66UOjs4yLs8lnI1oqRab_Gae8Mg&s"
+              class="card-img-top">
+            <div class="card-body bg-light">
+              <h5 class="text-center">Bellie Eillish</h5>
+              <p class="text-center">Tổng giám đốc</p>
+              <div class="line"></div>
+              <div class="d-flex gap-2 justify-content-center align-content-start">
+                <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+                <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+                <a href="#"><i class="bi bi-google text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79iD31EAtWNlHSbh8xUxiQAxyHoTtCw7dXg&s">
+            <div class="card-body bg-light">
+              <h5 class="text-center">Shayda</h5>
+              <p class="text-center">Quản lí nhân sự</p>
+              <div class="line"></div>
+              <div class="d-flex gap-2 justify-content-center align-content-start">
+                <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+                <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+                <a href="#"><i class="bi bi-google text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer class="container">
+    <div class="row mt-3">
+      <div class="col-lg-6 offset-lg-6">
+        <h2 class="section-title text-center mt-3 text-dark ">
+          Liên hệ với chúng tôi
+        </h2>
+        <div class="line"></div>
+        <p class="text-center">
+          Bạn có câu hỏi, Cần được hỗ trợ?
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-9">
+        <form action="">
+          <input type="text" placeholder="Họ tên*" class="form-control mb-3 rounded-pill" />
+          <input type="text" placeholder="Tiêu đề" class="form-control mb-3 rounded-pill" />
+          <input type="Email" placeholder="Email*" class="form-control mb-3 rounded-pill" />
+          <textarea placeholder="Nội dung*" class="form-control mb-3 rounded-3" rows="5"></textarea>
+          <input type="Submit" class="btn btn-dark rounded-pill" value="Gửi liên hệ">
+        </form>
+      </div>
+      <div class="col-lg-3">
+        <h3>Trụ sở chính</h3>
+        <div class="line line-left"></div>
+        <p>Điện thoại: +1 (800) 456 37 96</p>
+        <p>Địa chỉ: TP Hồ Chí Minh - Việt Nam</p>
+        <p>Email: info@dott.com</p>
+        <h3>Liên hệ qua</h3>
+        <div class="line line-left"></div>
+        <div class="d-flex gap-2 ">
+          <a href="#"><i class="bi bi-facebook text-dark"></i></a>
+          <a href="#"><i class="bi bi-instagram text-dark"></i></a>
+          <a href="#"><i class="bi bi-twitter text-dark"></i></a>
+          <a href="#"><i class="bi bi-google text-dark"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
